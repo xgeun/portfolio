@@ -1,0 +1,869 @@
+.dant-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+.site-section {
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.site-section p {
+    margin: 0;
+}
+.visual {
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+}
+
+a.btn-join {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 14px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border-radius: 3px;
+    width: 58.333%;
+    max-width: 420px;
+}
+
+a.btn-join:hover {
+    transform: scale(1.03);
+}
+
+
+
+.first {
+    padding: 0;
+}
+.first .dant-container {
+    height: 100%;
+    padding: 100px 0 80px 40px;
+}
+.first .title-header {
+    width: 63.194%;
+    max-width: 455px;
+    padding: 40px 0 30px 0;
+}
+.first .icon-line {
+    margin-bottom: 30px;
+}
+.first p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+.first ul.link-container {
+    position: absolute;
+    right: 85px;
+    top: 130px;
+    display: none;
+}
+.first ul.link-container a {
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: underline;
+}
+.first .bar-pink {
+    width: 6.527%;
+    right: 18.0555%;
+    top: 0;
+}
+.first .bar-blue {
+    width: 14.722%;
+    right: 0;
+    top: 105px;
+}
+
+
+
+.second {
+    padding: 0;
+}
+.second .btn-container {
+    position: relative;
+    text-align: center;
+    margin: 60px 0;
+}
+
+
+
+.third {
+    padding: 0;
+    background-color: #fafafa;
+}
+.third .dant-container {
+    padding: 90px 0 0 40px;
+}
+.third .title-header {
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+.third .title-header h3, .third .title-header h4 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+.third .title-header h4 {
+    font-weight: 300;
+}
+.third p {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+}
+.third .visual {
+    position: relative;
+    margin: 60px auto 0 auto;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    z-index: 0;
+}
+
+
+
+.four {
+    background-color: #f0f0f0;
+    padding: 110px 0 150px 0;
+}
+.four .visual-container {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: flex-end;
+}
+.four .visual-container:nth-of-type(2) {
+    justify-content: flex-start;
+}
+.four .visual-container--right {
+    top: 0;
+    right: 0;
+}
+.four .visual-container--left {
+    top: 0;
+    left: 0;
+}
+.four .visual-container-img {
+    width: 53.611%;
+    max-width: 386px;
+    font-size: 0;
+}
+.four .visual-container-content {
+    position: absolute;
+    right: 60%;
+    top: 70px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+}
+.four .visual-container-content::before {
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #1e1e1e;
+    position: absolute;
+    top: -30px;
+    right: -70%;
+}
+.four .visual-container--left .visual-container-content {
+    left: 60%;
+    top: auto;
+    right: auto;
+    bottom: 50px;
+    text-align: left;
+}
+.four .visual-container--left .visual-container-content::before {
+    right: auto;
+    left: -108px;
+}
+.four .bar-pink {
+    width: 20.83%;
+    right: 0;
+    top: 0;
+}
+.four .bar-blue {
+    left: 0;
+    bottom: 10%;
+}
+
+
+
+.five {
+    padding: 60px 0 100% 0;
+    height: 0;
+    background-image: url(../images/main/mobile/bg_five.png);
+    background-position: center;
+    background-size: 120%;
+    background-color: #000;
+}
+.five .dant-container {
+    height: 100%;
+    text-align: center;
+}
+.five .title-header h3 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.five .title-header h4 {
+    font-size: 23px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+
+
+.six {
+    padding: 60px 0;
+    background-color: #323232;
+    text-align: center;
+}
+.six h3, .six h4 {
+    color: #fff;
+    margin: 0;
+}
+.six h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding: 8px 42px;
+    background-color: #fff;
+    color: #323232;
+    border-radius: 26px;
+    display: inline-block;
+}
+.six h4 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+
+
+.seven {
+    padding: 80px 0 70px 0;
+    background-image: url(../images/main/bg_seven.png);
+    background-position: center;
+    text-align: center;
+}
+.seven::before {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/main/icon_seven.png);
+    background-size: 58px;
+    top: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.seven .title-header {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 100px;
+    padding: 0 5.5%;
+}
+.seven .event-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+}
+.seven .event-container--item {
+    position: relative;
+    margin: 0 5px 80px 5px;
+    box-sizing: border-box;
+}
+.seven .event-container--item:last-child {
+    margin-bottom: 0;
+}
+.seven .event-container--item-header {
+    background-color: #fff;
+}
+.seven .event-container--item-header-img {
+    position: relative;
+    padding: 11px 11px 0 11px;
+    font-size: 0;
+}
+.seven .event-container--item-header-img>img {
+    position: relative;
+    z-index: 10;
+}
+.seven .event-container--item-header-img::before {
+    content: "1등";
+    position: absolute;
+    background-color: #fff;
+    padding: 14px 32px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -45px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.seven .event-container--item:nth-of-type(2) .event-container--item-header-img::before {
+    content: "2등";
+}
+.seven .event-container--item:nth-of-type(3) .event-container--item-header-img::before {
+    content: "3등";
+}
+.seven .event-container--item-header-content {
+    padding: 8px 0;
+    text-align: center;
+    line-height: 32px;
+}
+.seven .event-container--item-header-content strong {
+    font-size: 20px;
+    font-weight: 700;
+}
+.seven .event-container--item-footer {
+    background-color: #f1c0ac;
+    color: #323232;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 0;
+    line-height: 32px;
+}
+.seven .event-date-container {
+    border-top: 2px dotted #1e1e1e;
+    border-bottom: 2px dotted #1e1e1e;
+    display: inline-block;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 57px;
+    padding: 0 55px;
+}
+.seven .event-date-container strong {
+    font-weight: 700;
+}
+
+
+.eight {
+    padding: 120px 0;
+}
+.eight .link-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20.833%;
+}
+.eight .link-container--item {
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.eight .link-container--item:last-child {
+    margin-bottom: 0;
+}
+.eight .link-container--item-title {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.eight .link-container--item-title::before {
+    content: "";
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    width: 3px;
+    height: 18px;
+    background-color: #1e1e1e;
+    display: inline-block;
+}
+.eight .link-container--item-content>a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.eight .link-container--item-content>a:hover {
+    transform: scale(1.03);
+}
+
+
+
+.footer {
+    background-color: #323232;
+    color: #f0f0f0;
+    padding: 40px 0;
+}
+.footer .dant-container {
+    padding: 0 40px;
+}
+.footer h3 {
+    color: #f0f0f0;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 25px 0;
+}
+.footer p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+
+
+@media (min-width: 480px) {
+    .first p {
+        font-size: 20px;
+    }
+    a.btn-join {
+        width: auto;
+        padding: 18px 70px;
+        font-size: 20px;
+        line-height: 38px;
+        max-width: inherit;
+    }
+
+    .third .title-header h3, .third .title-header h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .third p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    .four {
+        padding: 110px 0 180px 0;
+    }
+    .four .visual-container-content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .five {
+        padding: 90px 0 100% 0;
+    }
+    .five .title-header h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .five .title-header h4 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    .six {
+        padding: 55px 0 75px 0;
+    }
+    .six h3 {
+        font-size: 24px;
+        line-height: 27px;
+        margin-bottom: 45px;
+        padding: 12px 50px;
+        border-radius: 30px;
+    }
+    .six h4 {
+        font-size: 40px;
+        line-height: 57px;
+    }
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 720px) {
+    .dant-container {
+        max-width: 1024px;
+    }
+
+    a.btn-join {
+        width: auto;
+        padding: 20px 90px;
+        font-size: 24px;
+        line-height: 44px;
+        max-width: inherit;
+    }
+
+    .first {
+        padding: 0;
+    }
+    .first .dant-container {
+        height: 100%;
+        padding: 100px 0 80px 80px;
+    }
+    .first .title-header {
+        padding: 40px 0 30px 0;
+        width: 51.269%;
+        max-width: 525px;
+    }
+    .first .icon-line {
+        margin-bottom: 30px;
+    }
+    .first p {
+        font-size: 28px;
+        letter-spacing: 0.05em;
+    }
+    .first ul.link-container {
+        right: 190px;
+        top: 130px;
+        display: block;
+    }
+    .first ul.link-container a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .first .bar-pink {
+        width: auto;
+        right: 125px;
+        top: 0;
+    }
+    .first .bar-blue {
+        width: auto;
+        right: 0;
+        top: 105px;
+    }
+
+
+    .second .btn-container {
+        margin: 90px 0;
+    }
+
+
+    .third .dant-container {
+        padding: 100px 0 120px 50px;
+    }
+    .third .title-header h3, .third .title-header h4 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .third .visual {
+        position: absolute;
+        width: 50.683%;
+        max-width: 519px;
+        right: -75px;
+        margin: 0;
+        bottom: 0;
+    }
+    .third p {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+
+
+    .four {
+        padding: 110px 0 120px 0;
+    }
+    .four .visual-container-content {
+        right: 40%;
+    }
+    .four .visual-container-content::before {
+        width: 50%;
+        right: -40%;
+    }
+    .four .visual-container--left .visual-container-content {
+        left: 40%;
+    }
+    .four .visual-container--right {
+        right: 50px;
+    }
+    .four .visual-container--left {
+        left: 50px;
+    }
+    .four .visual-container-img {
+        width: 36%;
+    }
+    .four .visual-container:nth-of-type(2) {
+        margin-top: -20%;
+    }
+    .four .bar-blue {
+        bottom: 0;
+    }
+
+
+    .five {
+        padding: 90px 0 0;
+        height: 798px;
+        background-image: url(../images/main/bg_five.png);
+        background-size: auto;
+    }
+    .five .title-header h3 {
+        font-size: 20px;
+        line-height: 27px;
+        margin: 0 0 20px 0;
+    }
+    .five .title-header h4 {
+        font-size: 40px;
+        line-height: 27px;
+    }
+
+
+
+    .seven {
+        padding: 125px 0 110px 0;
+    }
+    .seven .title-header {
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 125px;
+    }
+    .seven .event-container {
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin-bottom: 37px;
+    }
+    .seven .event-container--item {
+        margin: 0 5px;
+    }
+    .seven .event-date-container {
+        margin-bottom: 120px;
+    }
+
+
+
+    .eight .link-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 20.833%;
+    }
+    .eight .link-container {
+        padding: 0 10%;
+    }
+    .eight .link-container--item {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+
+}
+
+
+@media (min-width: 991.98px) {
+
+}
+
+
+@media (min-width: 1024px) {
+    .dant-container {
+        max-width: 1200px;
+    }
+
+    .first {
+        padding: 0;
+    }
+    .first .dant-container {
+        height: 100%;
+        padding: 100px 0 80px 80px;
+    }
+    .first .title-header {
+        padding: 40px 0 30px 0;
+    }
+    .first .icon-line {
+        margin-bottom: 30px;
+    }
+    .first p {
+        font-size: 24px;
+    }
+    .first ul.link-container {
+        right: 85px;
+        top: 130px;
+    }
+    .first ul.link-container a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .first .bar-pink {
+        width: auto;
+        right: 0;
+        margin-right: 20px;
+        top: 0;
+    }
+    .first .bar-blue {
+        width: auto;
+        right: 0;
+        margin-right: -105px;
+        top: 105px;
+    }
+
+    .second {
+        padding: 0;
+        height: 900px;
+        background-image: url(../images/main/bg_second.png);
+        background-position: center;
+    }
+    .second .dant-container {
+        height: 100%;
+    }
+    .second .btn-container {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+    .third .dant-container {
+        padding: 140px 0 130px 180px;
+    }
+    .third .title-header h3, .third .title-header h4 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .third .visual {
+        width: auto;
+        right: -75px;
+        bottom: 0;
+    }
+    .third p {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+
+
+
+
+    .four {
+        padding: 110px 0 120px 0;
+        height: 1135px;
+    }
+    .four .visual-container {
+        position: absolute;
+        z-index: 20;
+    }
+    .four .visual-container:nth-of-type(2) {
+        margin-top: auto;
+    }
+    .four .visual-container--right {
+        top: 0;
+        right: 100px;
+    }
+    .four .visual-container--left {
+        top: 360px;
+        left: 100px;
+    }
+    .four .visual-container-img {
+        width: auto;
+        max-width: inherit;
+    }
+    .four .visual-container-content {
+        position: absolute;
+        right: auto;
+        left: -325px;
+        top: 70px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: right;
+    }
+    .four .visual-container-content::before {
+        content: "";
+        height: 2px;
+        width: 122px;
+        background-color: #1e1e1e;
+        position: absolute;
+        top: -30px;
+        right: -110px;
+    }
+    .four .visual-container--left .visual-container-content {
+        left: auto;
+        top: auto;
+        right: -320px;
+        bottom: 50px;
+        text-align: left;
+    }
+    .four .visual-container--left .visual-container-content::before {
+        right: auto;
+        left: -108px;
+    }
+    .four .bar-pink {
+        width: auto;
+        right: auto;
+        left: 50%;
+        margin-left: -48px;
+        top: 0;
+    }
+    .four .bar-blue {
+        left: 0;
+        bottom: 0;
+    }
+
+
+    .six {
+        padding: 55px 0 75px 0;
+    }
+    .six h3 {
+        font-size: 24px;
+        line-height: 27px;
+        margin-bottom: 45px;
+        padding: 12px 50px;
+        border-radius: 30px;
+    }
+    .six h4 {
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+
+
+    .eight {
+        padding: 160px 0 190px 0;
+    }
+    .eight .link-container {
+        padding: 0 150px;
+    }
+    .eight .link-container--item-title {
+        margin-bottom: 65px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .eight .link-container--item-title::before {
+        top: 2px;
+        margin-right: 10px;
+        width: 5px;
+        height: 20px;
+    }
+    .eight .link-container--item-content>a {
+        margin-bottom: 0;
+    }
+
+
+
+    .footer .dant-container {
+        padding: 0 120px;
+    }
+    .footer h3 {
+        color: #f0f0f0;
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0 0 35px 0;
+    }
+    .footer p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
